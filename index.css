@@ -67,9 +67,12 @@ nav a {
 }
 .header{
     background-color:#FFF8F3;
+ background-image: url("./header_bg.png");
+ background-repeat: no-repeat;
+ background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-around;
     text-align: left;
@@ -100,4 +103,12 @@ font-weight: 500px;
 .icon{
     
     height: 500px;
+    
+}
+.con{
+
+}
+
+.para{
+    padding-bottom: 10px;
 }
