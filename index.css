@@ -7,6 +7,7 @@ nav {
     display: flex;
 align-items: center;
 justify-content: space-between;
+margin: 0px 200px;
 
 }
 .hh{
@@ -24,14 +25,26 @@ font-weight: 800;
 .btn-primary {
     color: aliceblue;
     
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 70px;
    
 height: none;
 border-radius: 5px;
 background: #FD6E0A;
 border: none;
-padding: 15px 20px ;
+padding: 15px 30px ;
+}
+.btn-edit-primary{
+     color: #FD6E0A;
+    text-align: center;
+  
+    font-size: 15pxpx;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 5px;
 }
 nav > ul{
     display: flex;
@@ -47,16 +60,44 @@ font-size: 20px;
 font-weight: 400;
 
 }
-    
-    
-    
-
-
 
 nav a {
     text-decoration: none;
     color: Dark 02;
 }
+.header{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.greeting{
+    color:  #474747);
+
+font-size: 32px;
+font-style: normal;
+font-weight: 500px;
 
 
-
+}
+.main{
+    color: var( #181818);
+   
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;  
+}
+.preety{
+    background-color: #FFF8F3 ;
+    
+    
+    
+}
+.icon{
+    
+    height: 500px;
+}
